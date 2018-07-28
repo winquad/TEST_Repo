@@ -2,11 +2,14 @@
 #include<Metro.h>
 #include<Servo.h>
 
-// Define pinname pinnum
+// Define pinname pinnumD3
+#define led3 4 //D4
+#define vertical2_out 5 //D5
 #define horizon2_in 14 //A0
 #define horizon1_in 15 //A1
 #define vertical2_in 16 //A2
 #define vertical1_in 17 //A3
+//aaaaaaaaaa
 //#define non 18 //A4
 //#define non 19 //A5
 //#define non A6
@@ -14,9 +17,7 @@
 //#define non 0 //D0
 //#define non 1 //D1
 #define led4 2 //D2
-//#define non 3 //D3
-#define led3 4 //D4
-#define vertical2_out 5 //D5
+//#define non 3 //
 #define vertical1_out 6 //D6
 #define led2 7 //D7
 #define led1 8 //D8
